@@ -11,14 +11,10 @@ body {
 header {
     position: fixed;
     display: block;
-    background-color: blue;
+    width: 100%;
+    background-color: rgb(29, 62, 249);
     color: white;
-    border: 5px solid gold;
-    padding: 10px;
-}
-
-h1 {
-    background-color: blue;
+    border: 5px solid rgb(255, 187, 16);
 }
 
 .navigation a {
@@ -28,7 +24,7 @@ h1 {
 }
 
 main {
-    padding: 60px;
+    padding-top: 120px;
 }
 
 img {
@@ -45,10 +41,14 @@ h5 {
     font-size: larger;
 }
 
-p {
-    text-align: center;
+#About p {
+    display: block;
+    padding-left: 100px;
 }
 
-.contact {
-    text-align: center;
+ul {
+    background-color: rgb(53, 164, 255);
+    border: 5px solid white;
+    width: 100%;
+    list-style: none;
 }
